@@ -1,8 +1,5 @@
 spring:
-  kafka:
-    bootstrap-servers: svrinvoice01.sidecr.com:9092
-    topic:
-      userCreated: USER_CREATED_TOPIC
   rabbitmq:
     host: svrinvoice01.sidecr.com
     port: 5672
+    EmailQueueRoutingKey: EmailQueue
